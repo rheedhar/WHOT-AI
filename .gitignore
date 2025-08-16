@@ -212,3 +212,6 @@ __marimo__/
 
 # models
 src/models
+
+# Dockerfile
+Dockerfile

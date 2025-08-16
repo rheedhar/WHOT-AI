@@ -63,7 +63,7 @@ I already trained the model and you are welcome to download it from here: [Googl
 ### Running the API
 - Start the uvicorn server
 ```
-uvicorn main:app --reload
+uvicorn src.main:app --reload
 ```
 
 ### Making Predictions

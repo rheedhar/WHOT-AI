@@ -51,7 +51,7 @@ python generate_data.py
 ```
 
 ### Training the Model
-I already trained the model and you are welcome to download it from here: [Google Drive](YOUR_GOOGLE_DRIVE_LINK_HERE)
+I already trained the model and you are welcome to download it from here: [Google Drive](https://drive.google.com/drive/folders/1gqC86EvmaSQ01ghwOfMFKwUsz8cP5RLY?usp=drive_link)
 
 **Note:** If you would like to retrain the model, due to the large dataset size, you may need to use a cloud provider or reduce the data size in `generate_data.py` otherwise, it takes forever to run on a personal computer.
 

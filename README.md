@@ -14,7 +14,7 @@ This project was a fun way to create a computer player for the console version o
 The data generation code is located in `generate_data.py` . Training data was created by:
 - Generating all possible 4-card hand combinations from a 54-card deck
 - Adding 5 million additional random game scenarios with special rules
-- Total dataset: about 22 million examples
+- Total dataset: about 22 million rows
 
 ## Model Training
 The model was trained using a random forest algorithm
@@ -26,7 +26,7 @@ The model was trained using a random forest algorithm
 - Requested suit (i.e. when a whot card is played and player requests a specific suit from the next player)
 
 **Model Output**
-- Action to take (card to play or go market)
+- Action to take (card to play or go to market)
 
 ## Running the Code
 
@@ -53,11 +53,11 @@ python generate_data.py
 ### Training the Model
 I already trained the model and you are welcome to download it from here: [Google Drive](YOUR_GOOGLE_DRIVE_LINK_HERE)
 
-**Note:** If you would like to retrain the model, due to the large dataset size, you may need to use a cloud provider or reduce the data size in `generate_data.py` otherwise it takes forever to run on a personal computer.
+**Note:** If you would like to retrain the model, due to the large dataset size, you may need to use a cloud provider or reduce the data size in `generate_data.py` otherwise, it takes forever to run on a personal computer.
 
 - In the src folder create a new folder called models
 - If you are using the pretrained model, save the downloads in `src/models/`.
-- If you are retraining, you need to run `whot_model.ipynb` file
+- If you are retraining, you need to run the `whot_model.ipynb` file
 
 
 ### Running the API

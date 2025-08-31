@@ -14,7 +14,6 @@ This project was a fun way to create a computer player for the command line vers
 The data generation code is located in `generate_data.py` . Training data was created by:
 - Generating all possible 4-card hand combinations from a 54-card deck
 - Adding 5 million additional random game scenarios with special rules
-- Total dataset: about 22 million rows
 
 ## Model Training
 The model was trained using a random forest algorithm

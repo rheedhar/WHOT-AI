@@ -5,7 +5,7 @@ Players take turns to play by matching the shape (suit) or the number of the cur
 
 Official game documentation: [https://en.wikipedia.org/wiki/Whot!](https://en.wikipedia.org/wiki/Whot!)
 
-This project was a fun way to create a computer player for the console version of the game created in java. Here is the link to the java project if you would like to play the game: [WHOT](https://github.com/rheedhar/WHOT)
+This project was a fun way to create a computer player for the command line version of the game created in java. Here is the link to the java project if you would like to play the game: [WHOT](https://github.com/rheedhar/WHOT)
 
 **Note**: Since this is a learning project, this model was not added to the console game due to constraints with hosting a large model but you can still play the game using the rule based logic in the game.
 
